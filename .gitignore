@@ -2,7 +2,7 @@ __pycache__
 .DS_Store
 venv
 venv.nosync
-venv312
+venv111
 dipoles_detected.*
 *.tif
 *.tiff
