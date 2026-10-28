@@ -4,5 +4,6 @@ venv
 venv.nosync
 venv111
 dipoles_detected.*
+*.png
 *.tif
 *.tiff
