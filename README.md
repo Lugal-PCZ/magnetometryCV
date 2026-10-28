@@ -83,7 +83,7 @@ The following Python libraries are required:
 Install the required dependencies using pip:
 
 ```bash
-pip install numpy opencv-python matplotlib mplcursors rasterio scipy
+pip install -r requirements.txt
 ```
 
 ## Input Data
