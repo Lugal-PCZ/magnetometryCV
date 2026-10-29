@@ -7,3 +7,4 @@ dipoles_detected.*
 *.png
 *.tif
 *.tiff
+!Sample.tiff
