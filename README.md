@@ -4,6 +4,9 @@
 
 This program is a computer vision-based application for magnetic dipole detection using magnetometry data. It is written in Python and uses the NumPy and SciPy libraries, along with other image-processing libraries, to detect candidate dipoles using a rotation-invariant matched filtering approach. A secondary filtering algorithm based on the shape and contrast of the dipole poles is then used to reduce false detections.
 
+## Importance
+This program is useful primarily as a first screen to help archaeologists or data analysts find dipoles that they may have missed and to expidite the process of locating dipoles over a large area. Additionally, it allows teams with less magnetometry experience to identify artifacts and also begin to recognize signals that correspond to likely dipoles. The program takes only 10-20 seconds to run in testing and therefore is orders of magnitude faster than searching by hand. Finally, the concept of using computer vision on magnetometry data to find artifacts is mostly novel in the field of archaeology. This program provides a specific example using dipolar artifacts that correspond to pots, but could likely be expanded to other magnetometry signals that correspond to different artifacts. 
+
 ## Features
 
 - Loads magnetometry data from a GeoTIFF file.
@@ -95,7 +98,7 @@ The input file should be a magnetogram in GeoTIFF format.
 Run the Python script:
 
 ```bash
-python main.py
+python detect_dipoles.py
 ```
 
 ## Parameters
